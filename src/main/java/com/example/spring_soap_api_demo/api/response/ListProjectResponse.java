@@ -1,4 +1,4 @@
-package com.example.spring_soap_api_demo.response;
+package com.example.spring_soap_api_demo.api.response;
 
 import jakarta.xml.bind.annotation.XmlRootElement;
 

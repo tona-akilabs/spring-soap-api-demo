@@ -1,10 +1,10 @@
-package com.example.spring_soap_api_demo.endpoints;
+package com.example.spring_soap_api_demo.api.ws;
 
 import com.example.spring_soap_api_demo.entity.Project;
 import com.example.spring_soap_api_demo.repository.ProjectRepository;
-import com.example.spring_soap_api_demo.request.ProjectRequest;
-import com.example.spring_soap_api_demo.response.ListProjectResponse;
-import com.example.spring_soap_api_demo.response.ProjectResponse;
+import com.example.spring_soap_api_demo.api.request.ProjectRequest;
+import com.example.spring_soap_api_demo.api.response.ListProjectResponse;
+import com.example.spring_soap_api_demo.api.response.ProjectResponse;
 import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ws.server.endpoint.annotation.Endpoint;

@@ -1,4 +1,4 @@
-package com.example.spring_soap_api_demo.request;
+package com.example.spring_soap_api_demo.api.request;
 
 import com.example.spring_soap_api_demo.helper.LocalDateAdapter;
 import jakarta.xml.bind.annotation.XmlElement;
