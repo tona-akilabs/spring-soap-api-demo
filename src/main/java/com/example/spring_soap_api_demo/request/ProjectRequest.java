@@ -7,7 +7,7 @@ import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 
 import java.time.LocalDate;
 
-@XmlRootElement(name = "projectRequest", namespace = "http://example.com/project")
+@XmlRootElement(name = "createProject", namespace = "http://example.com/project")
 public class ProjectRequest {
     private String name;
     private LocalDate createdDate;

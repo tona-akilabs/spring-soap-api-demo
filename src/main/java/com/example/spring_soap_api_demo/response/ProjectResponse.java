@@ -5,11 +5,19 @@ import jakarta.xml.bind.annotation.XmlRootElement;
 
 import java.time.LocalDate;
 
-@XmlRootElement(name = "projectResponse", namespace = "http://example.com/project")
+@XmlRootElement(namespace = "http://example.com/project")
 public class ProjectResponse {
     private String name;
     private String createdDate;
     private String status;
+
+    public ProjectResponse() {}
+
+    public ProjectResponse(String name, String createdDate, String status) {
+        this.name = name;
+        this.createdDate = createdDate;
+        this.status = status;
+    }
 
     public String getName() {
         return name;
