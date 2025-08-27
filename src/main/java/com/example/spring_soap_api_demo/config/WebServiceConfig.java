@@ -39,7 +39,7 @@ public class WebServiceConfig {
         return template;
     }*/
 
-    @Bean(name = "helloworld")
+    /*@Bean(name = "helloworld")
     public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema helloWorldSchema) {
         DefaultWsdl11Definition wsdl11Definition = new DefaultWsdl11Definition();
         wsdl11Definition.setPortTypeName("HelloWorldPort");
@@ -52,5 +52,5 @@ public class WebServiceConfig {
     @Bean
     public XsdSchema helloWorldSchema() {
         return new SimpleXsdSchema(new ClassPathResource("helloworld.xsd"));
-    }
+    }*/
 }
